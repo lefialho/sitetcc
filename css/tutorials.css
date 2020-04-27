@@ -1,0 +1,20 @@
+/*INTRO*/
+
+section.intro-inner{
+	background-attachment: fixed;
+	color: #fff;
+	height: 100%; 
+	margin-top: 100px;
+	padding: 100px 0;
+	position: relative;
+}
+
+.bg-intro{
+	background: url(../img/bg-04.jpg) center center;
+}
+
+/*TUTORIALS*/
+
+section.tutorials ul{
+	margin-top: 40px;
+}

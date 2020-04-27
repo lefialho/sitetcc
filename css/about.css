@@ -1,0 +1,21 @@
+/*INTRO*/
+
+section.intro-inner{
+	background-attachment: fixed;
+	color: #fff;
+	height: 100%; 
+	margin-top: 100px;
+	padding: 100px 0;
+	position: relative;
+}
+
+.bg-intro{
+	background: url(../img/bg-02.jpg) no-repeat top center;
+}
+
+
+/*PRESENTATION*/
+
+section.presentation img, section.historical img{
+	width: 100%;
+}

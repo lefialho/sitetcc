@@ -1,0 +1,74 @@
+/*INTRO*/
+
+section.intro-inner{
+	background-attachment: fixed;
+	color: #fff;
+	height: 100%; 
+	margin-top: 100px;
+	padding: 100px 0;
+	position: relative;
+}
+
+.bg-intro{
+	background: url(../img/bg-03.jpg) no-repeat top;
+}
+
+
+/*CLASSES*/
+
+.panel-group .panel-heading {
+  background-color: #ffb300;
+  text-decoration: none;
+}
+
+.panel-heading {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.panel-group .panel {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.panel-title{
+	font-weight: 700;
+}
+
+.panel-title > a, .panel-title > a:hover {
+	color: #000;
+ 	display: block;
+}
+
+.panel-title > a:before {
+	content: "-";
+  color: #000;
+  font-weight: 700;
+  padding-right: 5px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 18px;
+}
+
+.panel-title > a.collapsed:before {
+	content:"+";
+}
+
+.panel-heading {
+  position: relative;
+}
+
+.list-group-item a{
+	color: #6a614d; 
+	display: block;
+}
+
+.list-group-item a:hover{
+	color: #ffb300; 
+	display: block;
+}
+
+.list-group-item span{
+	font-weight: 700;
+}
